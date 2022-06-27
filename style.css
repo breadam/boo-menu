@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo{
+    height:128px;
+}
+
+.container{
+    
+    margin:auto;
+    padding:16px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+    border-bottom:1px solid rgba(0,0,0,0.7);
+    border-top:1px solid rgba(0,0,0,0.7);
+}
+
+#title{
+    display:inline-block;
+    margin-right:16px;
+}
+#navigation{
+    display:flex;
+    padding:16px;
+    justify-content: space-between;
+}
+.section{
+    margin:16px 0;
+    border-bottom:1px solid rgba(0,0,0,0.7);
+}
+
+.section-title{
+    margin:0;
+}
+
+.items{
+    padding:16px;
+}
+
+.item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.name{
+    align-self: flex-start;
+    display: inline;
+    width:auto;
+}
+.price{
+    align-self: flex-end;
+    display: inline;
+    width:auto;
+}
+
+.price .type{
+    display: inline-block;
+    width:32px;
+    text-align: center;
+}
+
+.price .type .icon{
+    width:26px;
+}
+
+.price .type .icon.large{
+    width:32px;
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        width:600px;
+        margin:auto;
+    }
+}
