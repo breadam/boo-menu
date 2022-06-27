@@ -1,0 +1,377 @@
+[
+    {
+        "title":"Espresso Bar",
+        "menu":[
+            {
+                "name":"Espresso",
+                "price":{
+                    "normal":"22"
+                }
+            },
+            {
+                "name":"Double Espresso",
+                "price":{
+                    "normal":"24"
+                }
+            },
+            {
+                "name":"Americano",
+                "price":{
+                    "normal":"28",
+                    "large":"30",
+                    "ice":"30"
+                }
+            },
+            {
+                "name":"Flat White",
+                "price":{
+                    "normal":"28"
+                }
+            },
+            {
+                "name":"Cortado",
+                "price":{
+                    "normal":"28"
+                }
+            },
+            {
+                "name":"Cappucino",
+                "price":{
+                    "normal":"30",
+                    "large":"32"
+                }
+            },
+            {
+                "name":"Cafe Latte",
+                "price":{
+                    "normal":"30",
+                    "large":"32"
+                }
+            },
+            {
+                "name":"Caramel Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Vanilla Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Hazelnut Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Popcorn Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Banana Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Irish Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Coconut Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Pumpkin Spice Latte",
+                "price":{
+                    "normal":"33",
+                    "large":"35",
+                    "ice":"35"
+                }
+            },
+            {
+                "name":"Mint Mocha",
+                "price":{
+                    "normal":"35"
+                }
+            },
+            {
+                "name":"Caramel Macchiato",
+                "price":{
+                    "normal":"35"
+                }
+            },
+            {
+                "name":"Hot Chocolate Mocha",
+                "price":{
+                    "normal":"35"
+                }
+            },
+            {
+                "name":"Dark Chocolate Mocha",
+                "price":{
+                    "normal":"35"
+                }
+            },
+            {
+                "name":"White Chocolate Mocha",
+                "price":{
+                    "normal":"35"
+                }
+            },
+            {
+                "name":"Boo Mocha",
+                "price":{
+                    "normal":"35"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Çay",
+        "menu":[
+            {
+                "name":"Siyah Çay",
+                "price":{
+                    "normal":"20"
+                }
+            },
+            {
+                "name":"Yeşil Çay",
+                "price":{
+                    "normal":"20"
+                }
+            },
+            {
+                "name":"Yasemin Çayı",
+                "price":{
+                    "normal":"20"
+                }
+            },
+            {
+                "name":"Melisa Limon",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Ihlamur",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Adaçayı",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Yaseminli Yeşil Çay",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Boo Kış Çayı",
+                "price":{
+                    "normal":"25"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Coffee Bar",
+        "menu":[
+            {
+                "name":"Filter Coffee",
+                "price":{
+                    "normal":"25",
+                    "large":"27"
+                }
+            },
+            {
+                "name":"Red Eye",
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Black Eye",
+                "price":{
+                    "normal":"32"
+                }
+            },
+            {
+                "name":"Drip(V60)",
+                "price":{
+                    "normal":"33"
+                }
+            },
+            {
+                "name":"Chemex",
+                "price":{
+                    "normal":"33"
+                }
+            },
+            {
+                "name":"Colbrew",
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Siphon",
+                "price":{
+                    "normal":"35"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Special",
+        "menu":[
+            {
+                "name":"Turkish Coffee",
+                "price":{
+                    "normal":"20",
+                    "large":"22"
+                }
+            },
+            {
+                "name":"Hot Chocolate",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"White Chocolate Sahlep",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Strawberry Chocolate",
+                "price":{
+                    "normal":"25"
+                }
+            },
+            {
+                "name":"Affagato",
+                "price":{
+                    "normal":"27"
+                }
+            },
+            {
+                "name":"Chai Tea Latte",
+                "price":{
+                    "normal":"30"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Soğuk İçecekler",
+        "menu":[
+            {
+                "name":"Su",
+                "price":{
+                    "normal":"10"
+                }
+            },
+            {
+                "name":"Soda",
+                "price":{
+                    "normal":"12"
+                }
+            },
+            {
+                "name":"Meyvali Soda",
+                "price":{
+                    "normal":"13"
+                }
+            },
+            {
+                "name":"Gazlı İçecekler",
+                "price":{
+                    "normal":"20"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Limonatalar",
+        "menu":[
+            {
+                "name":"Mojito Limonata",
+                "options":["Mojito Şurubu","Nane Şurubu"],
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Meyveli Limonata",
+                "options":["Yeşil Elma","Karpuz","Çilek","Mango","Kiwi","Frambuaz"],
+                "price":{
+                    "normal":"30"
+                }
+            }
+        ]
+    },
+    {
+        "title":"Ice Tea",
+        "menu":[
+            {
+                "name":"Blue Butterfly Ice Tea",
+                "ingredients":["Mavi Sarmaşık Çiçeği","Mango","Elma","Ananas"],
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Berry Ice Tea",
+                "ingredients":["Hibiscus","Karadut","Böğürtlen","Frenk Üzümü","Lemongrass","Elma"],
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Green Mango Ice Tea",
+                "ingredients":["Mango","Yeşil Çay","Elma","Ananas"],
+                "price":{
+                    "normal":"30"
+                }
+            },
+            {
+                "name":"Green Cranberry",
+                "ingredients":["Mango","Yeşil Çay","Elma","Ananas"],
+                "price":{
+                    "normal":"30"
+                }
+            }
+        ]
+    }
+]

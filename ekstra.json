@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Süt",
+        "price":4
+    },
+    {
+        "name":"Laktozsuz Süt",
+        "price":4
+    },
+    {
+        "name":"Ektra Şurup",
+        "price":5
+    },
+    {
+        "name":"Ekstra Krema",
+        "price":4
+    },
+    {
+        "name":"Ekstra Shot",
+        "price":10
+    }
+]

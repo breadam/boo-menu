@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Coffee Boo👻 - Online Menu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                font-family: 'Montserrat', sans-serif;
+            }
+            #logo{
+                height:128px;
+            }
+
+            .container{
+                
+                margin:auto;
+                padding:16px;
+            }
+
+            .header{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                padding: 16px;
+            }
+
+            #title{
+                display:inline-block;
+                margin-right:16px;
+            }
+
+            .items{
+                padding:16px;
+            }
+
+            .item{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .name{
+                align-self: flex-start;
+                display: inline;
+                width:auto;
+            }
+            .price{
+                align-self: flex-end;
+                display: inline;
+                width:auto;
+            }
+
+            @media only screen and (min-width: 992px){
+                .container{
+                    width:600px;
+                    margin:auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1 id="title">Coffee Boo</h1>
+                <img id="logo" src="/boo-logo.png"/> 
+            </div>
+            <div id="menu">
+            </div>
+        </div>
+        <script>
+            (async () => {
+                const res = await fetch('/menu.json');
+                const json = await res.json();
+
+                const menu = document.getElementById('menu');
+
+                json.forEach((section) => {
+                    
+                    const items = section.menu.map((el) => {
+                        return `
+                            <div class="item">
+                                <div class="name">${el.name}</div>
+                                <div class="price">
+                                    <span>${el.price.normal?el.price.normal:''}</span>
+                                    <span>${el.price.large?'/'+ el.price.large:''}</span>
+                                    <span>${el.price.ice?'/'+el.price.ice:''}</span>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    const html = `
+                        <div class="section">
+                            <h2> ${section.title} </h2>
+                            <div class="items">
+                                ${items}
+                            </div>
+                        </div>
+                    `;
+
+                    const el = htmlToElement(html);
+                    menu.appendChild(el);
+                });
+            })();
+
+            function htmlToElement(html) {
+                var template = document.createElement('template');
+                html = html.trim(); // Never return a text node of whitespace as the result
+                template.innerHTML = html;
+                return template.content.firstChild;
+            }
+
+            function createMenu(el){
+                return `
+                    <div>${el.name}</div>
+                `;
+            }
+        </script>
+    </body>
+</html>
